@@ -1,0 +1,67 @@
+2018-Feb-12 09:40:40.763427 INFO [daemon] Vesta v1.1.1.1()
+2018-Feb-12 09:40:40.763636 INFO [daemon] Module folder: ./vestad
+2018-Feb-12 09:40:40.766345 INFO [daemon] Initializing p2p server...
+2018-Feb-12 09:40:40.766549 INFO [node_server] Binding on 0.0.0.0:17777
+2018-Feb-12 09:40:40.766632 INFO [node_server] Net service binded on 0.0.0.0:17777
+2018-Feb-12 09:40:40.766700 INFO [node_server] Attempting to add IGD port mapping.
+2018-Feb-12 09:40:44.771361 INFO [node_server] No IGD was found.
+2018-Feb-12 09:40:44.771590 INFO [daemon] P2p server initialized OK
+2018-Feb-12 09:40:44.771663 INFO [daemon] Initializing core...
+2018-Feb-12 09:40:44.772069 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Feb-12 09:40:44.803515 INFO [Blockchain] Blockchain initialized. last block: 0, d2049.h4.m40.s44 time ago, current difficulty: 1
+2018-Feb-12 09:40:44.808482 INFO [daemon] Core initialized OK
+2018-Feb-12 09:40:44.808806 INFO [daemon] Starting core rpc server on address 127.0.0.1:17778
+2018-Feb-12 09:40:44.809212 INFO [daemon] Core rpc server started ok
+2018-Feb-12 09:40:44.810274 INFO [daemon] Starting p2p net loop...
+2018-Feb-12 09:40:44.810349 INFO [node_server] Starting node_server
+2018-Feb-12 09:40:44.812467 INFO [protocol] 
+2018-Feb-12 09:40:44.812467 INFO [protocol] **********************************************************************
+2018-Feb-12 09:40:44.812467 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Feb-12 09:40:44.812467 INFO [protocol] 
+2018-Feb-12 09:40:44.812467 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Feb-12 09:40:44.812467 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Feb-12 09:40:44.812467 INFO [protocol] 
+2018-Feb-12 09:40:44.812467 INFO [protocol] Use "help" command to see the list of available commands.
+2018-Feb-12 09:40:44.812467 INFO [protocol] **********************************************************************
+2018-Feb-12 09:40:44.814686 INFO [core] 
+2018-Feb-12 09:40:44.814686 INFO [core] **********************************************************************
+2018-Feb-12 09:40:44.814686 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Feb-12 09:40:44.814686 INFO [core] 
+2018-Feb-12 09:40:44.814686 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Feb-12 09:40:44.814686 INFO [core] 
+2018-Feb-12 09:40:44.814686 INFO [core] Use "help" command to see the list of available commands.
+2018-Feb-12 09:40:44.814686 INFO [core] 
+2018-Feb-12 09:40:44.814686 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Feb-12 09:40:44.814686 INFO [core] **********************************************************************
+2018-Feb-12 09:40:44.815480 WARNING [node_server] [45.76.16.11:43102 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:40:46.817163 WARNING [node_server] [45.76.16.11:56086 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:40:48.818976 WARNING [node_server] [45.76.16.11:60299 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:40:55.821141 WARNING [node_server] [45.76.16.11:36920 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:41:02.823369 WARNING [node_server] [45.76.16.11:35391 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:41:04.825808 WARNING [node_server] [45.76.16.11:51625 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:41:11.828102 WARNING [node_server] [45.76.16.11:41419 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:41:18.831110 WARNING [node_server] [45.76.16.11:55260 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:41:20.832738 WARNING [node_server] [45.76.16.11:45798 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:41:27.841771 WARNING [node_server] [45.76.16.11:51509 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-12 09:41:31.682181 INFO [node_server] Stop signal sent
+2018-Feb-12 09:41:31.682374 INFO [node_server] Stopping NodeServer and it's0 connections...
+2018-Feb-12 09:41:51.684603 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Feb-12 09:41:52.685019 INFO [node_server] NodeServer loop stopped
+2018-Feb-12 09:41:52.685202 INFO [daemon] p2p net loop stopped
+2018-Feb-12 09:41:52.685257 INFO [daemon] Stopping core rpc server...
+2018-Feb-12 09:41:52.685467 INFO [daemon] Deinitializing core...
+2018-Feb-12 09:41:52.685530 INFO [miner] Mining has been stopped, 0 finished
+2018-Feb-12 09:41:52.685913 INFO [Blockchain] Saving blockchain...
+2018-Feb-12 09:41:52.686097 INFO [BlockCacheSerializer] - saving block index...
+2018-Feb-12 09:41:52.686172 INFO [BlockCacheSerializer] - saving transaction map...
+2018-Feb-12 09:41:52.686206 INFO [BlockCacheSerializer] - saving spent keys...
+2018-Feb-12 09:41:52.686235 INFO [BlockCacheSerializer] - saving outputs...
+2018-Feb-12 09:41:52.686279 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Feb-12 09:41:52.686311 INFO [BlockCacheSerializer] Serialization time: 0ms
+2018-Feb-12 09:41:52.686379 INFO [Blockchain] Saving blockchain indices...
+2018-Feb-12 09:41:52.686482 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2018-Feb-12 09:41:52.686532 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2018-Feb-12 09:41:52.686572 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2018-Feb-12 09:41:52.686620 INFO [daemon] Deinitializing p2p...
+2018-Feb-12 09:41:52.686960 INFO [miner] Mining has been stopped, 0 finished
+2018-Feb-12 09:41:52.688123 INFO [daemon] Node stopped.
