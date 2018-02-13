@@ -99,3 +99,31 @@ Use "help" command to see the list of available commands.
 2018-Feb-13 00:15:33.795435 ERROR [simplewallet] Error: mining has NOT been started: Failed,miningnotstarted
 2018-Feb-13 00:15:42.445233 INFO [simplewallet] available balance: 0.00000000, locked amount: 0.10000006
 2018-Feb-13 00:15:51.012005 INFO [simplewallet] Wallet closed
+2018-Feb-13 01:48:12.138569 INFO [simplewallet] Vesta wallet v1.1.1.1()
+2018-Feb-13 01:48:30.707540 INFO [simplewallet] Loading wallet...
+2018-Feb-13 01:48:30.711503 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:17778).
+2018-Feb-13 01:48:30.743574 INFO [simplewallet] Opened wallet: VESTXdaFc8GCSGQDLHn8ycCpcknsfS5xaLtcJvE9gemSHGNB8tvkCcUMsX5AT4PXgrMrUvnjHwSK2adqiFe2a6Q88W4acrZ8jw
+2018-Feb-13 01:48:30.743736 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Feb-13 01:48:34.885557 INFO [simplewallet] Wallet closed
+2018-Feb-13 01:50:23.816661 INFO [simplewallet] Vesta wallet v1.1.1.1()
+2018-Feb-13 01:50:33.279915 ERROR [simplewallet] Error: failed to load wallet: wallet file 'wallet.bin.wallet' is not found
+2018-Feb-13 01:50:33.280108 ERROR [simplewallet] Failed to initialize wallet
+2018-Feb-13 01:50:33.282246 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:17778).
+2018-Feb-13 01:50:39.353756 INFO [simplewallet] Vesta wallet v1.1.1.1()
+2018-Feb-13 01:50:48.379003 INFO [simplewallet] Generated new wallet: VESTSK2C2s6iDZ6xMMk8jnftGv6KoBYJcY6djGQ6ZNoC1afy67SFAM6XtYHqKjjUMqW7GzDRxgJj8EQH2N8uVmNm2PSSkcFvfo
+2018-Feb-13 01:50:48.379003 INFO [simplewallet] view key: 34691d838490b4df326465b1ca78a5f11ced1ca0324ebfa5ca27f8dcf66a0301
+2018-Feb-13 01:50:48.379147 INFO [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2018-Feb-13 01:51:03.212407 INFO [simplewallet] Mining started in daemon
+2018-Feb-13 01:51:03.360631 INFO [simplewallet] Height 1, transaction a8af2d97e597b0e1ea815085c8ab3ee0dd730b13a3cc5309cbc98a69e0fab718, received 12000000.00000000
+2018-Feb-13 01:51:03.360767 INFO [simplewallet] Height 2, transaction 9f0fb5fba45b9a8f9c15133600df2840a8657bfab098ac60474dde8eb48118f5, received 5.72204589
+2018-Feb-13 01:51:06.262482 INFO [simplewallet] Mining stopped in daemon
+2018-Feb-13 01:51:08.364319 INFO [simplewallet] Height 3, transaction 8a24677dd6e35e577055e584b3553a3b53f507935bcaac7a04e6c4dfa0b96494, received 5.72204316
+2018-Feb-13 01:54:06.091853 INFO [simplewallet] Wallet closed
