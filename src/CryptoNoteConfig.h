@@ -24,8 +24,8 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 //TODO Specify total number of available coins
 //TODO ((uint64_t)(-1)) equals to 18446744073709551616 coins
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
-const uint64_t MONEY_SUPPLY                                  = UINT64_C(20000000);
-const unsigned EMISSION_SPEED_FACTOR                         = 22;
+const uint64_t MONEY_SUPPLY                                  = UINT64_C(2400000000000000);
+const unsigned EMISSION_SPEED_FACTOR                         = 21;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 //TODO Define number of blocks for block size median calculation
@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "Vesta";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000104029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210199baa2eee123a44eb94ee128ed75bc9918680e269cbaf2b5350db004d06da3cc";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000101029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101ab0651f34b615b5543dc6836e873967716e92fa13d9f37a034b8fd4b63dbba52";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -107,8 +107,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "40.71.36.182:17777",
-  "45.76.16.11:17777",
+  "207.148.18.53:17777", //node 1 NJ
+  "144.202.34.218:17777", //node 2 FL
 };
 
 struct CheckpointData {
