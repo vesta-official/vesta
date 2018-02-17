@@ -11968,3 +11968,454 @@
 2018-Feb-13 01:57:21.227734 INFO [daemon] Deinitializing p2p...
 2018-Feb-13 01:57:21.227956 INFO [miner] Mining has been stopped, 0 finished
 2018-Feb-13 01:57:21.229093 INFO [daemon] Node stopped.
+2018-Feb-13 02:49:23.475866 INFO [daemon] Vesta v1.1.1.1()
+2018-Feb-13 02:49:23.476111 INFO [daemon] Module folder: ./vestad
+2018-Feb-13 02:49:23.480516 INFO [daemon] Initializing p2p server...
+2018-Feb-13 02:49:23.480769 INFO [node_server] Binding on 0.0.0.0:17777
+2018-Feb-13 02:49:23.480927 INFO [node_server] Net service binded on 0.0.0.0:17777
+2018-Feb-13 02:49:23.480976 INFO [node_server] Attempting to add IGD port mapping.
+2018-Feb-13 02:49:27.485675 INFO [node_server] No IGD was found.
+2018-Feb-13 02:49:27.485936 INFO [daemon] P2p server initialized OK
+2018-Feb-13 02:49:27.486011 INFO [daemon] Initializing core...
+2018-Feb-13 02:49:27.486805 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Feb-13 02:49:27.513404 INFO [Blockchain] Blockchain initialized. last block: 0, d2049.h21.m49.s27 time ago, current difficulty: 1
+2018-Feb-13 02:49:27.513502 INFO [daemon] Core initialized OK
+2018-Feb-13 02:49:27.513676 INFO [daemon] Starting core rpc server on address 127.0.0.1:17778
+2018-Feb-13 02:49:27.513794 INFO [daemon] Core rpc server started ok
+2018-Feb-13 02:49:27.513842 INFO [daemon] Starting p2p net loop...
+2018-Feb-13 02:49:27.513875 INFO [node_server] Starting node_server
+2018-Feb-13 02:49:27.744386 INFO [protocol] 
+2018-Feb-13 02:49:27.744386 INFO [protocol] **********************************************************************
+2018-Feb-13 02:49:27.744386 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Feb-13 02:49:27.744386 INFO [protocol] 
+2018-Feb-13 02:49:27.744386 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Feb-13 02:49:27.744386 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Feb-13 02:49:27.744386 INFO [protocol] 
+2018-Feb-13 02:49:27.744386 INFO [protocol] Use "help" command to see the list of available commands.
+2018-Feb-13 02:49:27.744386 INFO [protocol] **********************************************************************
+2018-Feb-13 02:49:27.883086 INFO [core] 
+2018-Feb-13 02:49:27.883086 INFO [core] **********************************************************************
+2018-Feb-13 02:49:27.883086 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Feb-13 02:49:27.883086 INFO [core] 
+2018-Feb-13 02:49:27.883086 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Feb-13 02:49:27.883086 INFO [core] 
+2018-Feb-13 02:49:27.883086 INFO [core] Use "help" command to see the list of available commands.
+2018-Feb-13 02:49:27.883086 INFO [core] 
+2018-Feb-13 02:49:27.883086 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Feb-13 02:49:27.883086 INFO [core] **********************************************************************
+2018-Feb-13 02:51:03.765406 INFO [miner] Mining has started with 1 threads, good luck!
+2018-Feb-13 02:51:03.765428 INFO [miner] Miner thread was started [0]
+2018-Feb-13 02:51:03.794906 INFO [miner] Found block for difficulty: 1
+2018-Feb-13 02:51:03.855171 INFO [miner] Found block for difficulty: 1
+2018-Feb-13 02:51:04.166608 INFO [miner] Miner thread stopped [0]
+2018-Feb-13 02:51:04.167229 INFO [miner] Mining has been stopped, 0 finished
+2018-Feb-13 08:27:06.050048 INFO [protocol] [149.167.15.12:34391 INC] SYNCHRONIZED OK
+2018-Feb-13 08:42:25.691076 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 1365
+2018-Feb-13 08:42:25.691076 INFO [Blockchain] id:	<f0bdb697437c759a007e1840d3f5c79a8ec38e088e4d3d9dfd7d475b729e3ce7>
+2018-Feb-13 08:42:25.691076 INFO [Blockchain] PoW:	<290b6d28425b0c075181a5f8985175af0564a60a63e021884e96d592e2540100>
+2018-Feb-13 08:42:25.691076 INFO [Blockchain] difficulty:	4885
+2018-Feb-13 08:44:17.083627 WARNING [node_server] [202.97.251.157:43843 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 08:44:59.092503 WARNING [node_server] [202.97.251.157:43882 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 08:45:16.823713 INFO [daemon] Vesta v1.1.1.1()
+2018-Feb-13 08:45:16.823907 INFO [daemon] Module folder: ./vestad
+2018-Feb-13 08:45:16.826641 INFO [daemon] Initializing p2p server...
+2018-Feb-13 08:45:16.827030 INFO [node_server] Binding on 0.0.0.0:17777
+2018-Feb-13 08:45:16.827462 INFO [miner] Mining has been stopped, 0 finished
+2018-Feb-13 08:45:16.827885 ERROR [daemon] Exception: TcpListener::TcpListener, bind failed, result=98, Address already in use
+2018-Feb-13 08:45:41.081503 WARNING [node_server] [202.97.251.157:43902 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 08:45:58.352885 INFO [node_server] 
+2018-Feb-13 08:45:58.352885 INFO [node_server] Peerlist white:
+2018-Feb-13 08:45:58.352885 INFO [node_server] 6b732bb98410d029	207.148.18.53:17777 	last_seen: d0.h0.m0.s31
+bca30c3fe00b0d92	144.202.34.218:17777 	last_seen: d0.h0.m0.s31
+4f14c17f78edbd02	202.97.251.225:17777 	last_seen: d0.h0.m1.s52
+66bd7dc796051f22	109.195.179.12:17777 	last_seen: d0.h0.m10.s39
+
+2018-Feb-13 08:45:58.352885 INFO [node_server] Peerlist gray:
+2018-Feb-13 08:45:58.352885 INFO [node_server] 9f3bf8d8ad5a605b	45.76.16.11:17777 	last_seen: d0.h0.m1.s20
+
+2018-Feb-13 08:49:08.677143 WARNING [node_server] [46.72.222.1:57381 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 08:55:43.432712 INFO [node_server] Stop signal sent
+2018-Feb-13 08:55:43.433025 INFO [node_server] Stopping NodeServer and it's8 connections...
+2018-Feb-13 08:55:43.433925 INFO [node_server] NodeServer loop stopped
+2018-Feb-13 08:55:43.434016 INFO [daemon] p2p net loop stopped
+2018-Feb-13 08:55:43.434094 INFO [daemon] Stopping core rpc server...
+2018-Feb-13 08:55:43.434217 INFO [daemon] Deinitializing core...
+2018-Feb-13 08:55:43.434280 INFO [miner] Mining has been stopped, 0 finished
+2018-Feb-13 08:55:43.434676 INFO [Blockchain] Saving blockchain...
+2018-Feb-13 08:55:43.434972 INFO [BlockCacheSerializer] - saving block index...
+2018-Feb-13 08:55:43.436609 INFO [BlockCacheSerializer] - saving transaction map...
+2018-Feb-13 08:55:43.437408 INFO [BlockCacheSerializer] - saving spent keys...
+2018-Feb-13 08:55:43.437473 INFO [BlockCacheSerializer] - saving outputs...
+2018-Feb-13 08:55:43.438623 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Feb-13 08:55:43.438691 INFO [BlockCacheSerializer] Serialization time: 3ms
+2018-Feb-13 08:55:43.438779 INFO [Blockchain] Saving blockchain indices...
+2018-Feb-13 08:55:43.438890 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2018-Feb-13 08:55:43.438959 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2018-Feb-13 08:55:43.440013 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2018-Feb-13 08:55:43.440561 INFO [daemon] Deinitializing p2p...
+2018-Feb-13 08:55:43.441076 INFO [miner] Mining has been stopped, 0 finished
+2018-Feb-13 08:55:43.445167 INFO [daemon] Node stopped.
+2018-Feb-13 08:55:51.011306 INFO [daemon] Vesta v1.1.1.1()
+2018-Feb-13 08:55:51.011538 INFO [daemon] Module folder: ./vestad
+2018-Feb-13 08:55:51.014259 INFO [daemon] Initializing p2p server...
+2018-Feb-13 08:55:51.014547 INFO [node_server] Binding on 0.0.0.0:17777
+2018-Feb-13 08:55:51.014660 INFO [node_server] Net service binded on 0.0.0.0:17777
+2018-Feb-13 08:55:51.014735 INFO [node_server] Attempting to add IGD port mapping.
+2018-Feb-13 08:55:55.017989 INFO [node_server] No IGD was found.
+2018-Feb-13 08:55:55.018200 INFO [daemon] P2p server initialized OK
+2018-Feb-13 08:55:55.018305 INFO [daemon] Initializing core...
+2018-Feb-13 08:55:55.018523 INFO [Blockchain] Loading blockchain...
+2018-Feb-13 08:55:55.018718 INFO [BlockCacheSerializer] - loading block index...
+2018-Feb-13 08:55:55.019087 INFO [BlockCacheSerializer] - loading transaction map...
+2018-Feb-13 08:55:55.019703 INFO [BlockCacheSerializer] - loading spent keys...
+2018-Feb-13 08:55:55.019756 INFO [BlockCacheSerializer] - loading outputs...
+2018-Feb-13 08:55:55.021755 INFO [BlockCacheSerializer] - loading multi-signature outputs...
+2018-Feb-13 08:55:55.021805 INFO [BlockCacheSerializer] Serialization time: 3ms
+2018-Feb-13 08:55:55.021844 INFO [Blockchain] Loading blockchain indices for BlockchainExplorer...
+2018-Feb-13 08:55:55.021916 INFO [BlockchainIndicesSerializer] - loading paymentID index...
+2018-Feb-13 08:55:55.021950 INFO [BlockchainIndicesSerializer] - loading timestamp index...
+2018-Feb-13 08:55:55.022610 INFO [BlockchainIndicesSerializer] - loading generated transactions index...
+2018-Feb-13 08:55:55.038141 INFO [Blockchain] Blockchain initialized. last block: 1510, d0.h0.m0.s36 time ago, current difficulty: 27828
+2018-Feb-13 08:55:55.038262 INFO [daemon] Core initialized OK
+2018-Feb-13 08:55:55.038406 INFO [daemon] Starting core rpc server on address 127.0.0.1:17778
+2018-Feb-13 08:55:55.038504 INFO [daemon] Core rpc server started ok
+2018-Feb-13 08:55:55.038547 INFO [daemon] Starting p2p net loop...
+2018-Feb-13 08:55:55.038580 INFO [node_server] Starting node_server
+2018-Feb-13 08:55:55.039602 INFO [protocol] [202.97.251.225:47208 INC] Sync data returned unknown top block: 1510 -> 1512 [2 blocks (0 days) behind] 
+2018-Feb-13 08:55:55.039602 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 08:55:55.040392 INFO [protocol] [144.202.34.218:34764 INC] Sync data returned unknown top block: 1510 -> 1512 [2 blocks (0 days) behind] 
+2018-Feb-13 08:55:55.040392 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 08:55:55.041192 INFO [protocol] [149.167.15.12:52818 INC] Sync data returned unknown top block: 1510 -> 1512 [2 blocks (0 days) behind] 
+2018-Feb-13 08:55:55.041192 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 08:55:55.176790 INFO [protocol] [144.202.34.218:17777 OUT] Sync data returned unknown top block: 1510 -> 1512 [2 blocks (0 days) behind] 
+2018-Feb-13 08:55:55.176790 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 08:55:55.248532 INFO [protocol] [144.202.34.218:34764 INC] SYNCHRONIZED OK
+2018-Feb-13 08:55:55.248628 INFO [protocol] 
+2018-Feb-13 08:55:55.248628 INFO [protocol] **********************************************************************
+2018-Feb-13 08:55:55.248628 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Feb-13 08:55:55.248628 INFO [protocol] 
+2018-Feb-13 08:55:55.248628 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Feb-13 08:55:55.248628 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Feb-13 08:55:55.248628 INFO [protocol] 
+2018-Feb-13 08:55:55.248628 INFO [protocol] Use "help" command to see the list of available commands.
+2018-Feb-13 08:55:55.248628 INFO [protocol] **********************************************************************
+2018-Feb-13 08:55:55.287071 INFO [protocol] [144.202.34.218:17777 OUT] SYNCHRONIZED OK
+2018-Feb-13 08:55:55.835000 INFO [core] 
+2018-Feb-13 08:55:55.835000 INFO [core] **********************************************************************
+2018-Feb-13 08:55:55.835000 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Feb-13 08:55:55.835000 INFO [core] 
+2018-Feb-13 08:55:55.835000 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Feb-13 08:55:55.835000 INFO [core] 
+2018-Feb-13 08:55:55.835000 INFO [core] Use "help" command to see the list of available commands.
+2018-Feb-13 08:55:55.835000 INFO [core] 
+2018-Feb-13 08:55:55.835000 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Feb-13 08:55:55.835000 INFO [core] **********************************************************************
+2018-Feb-13 08:55:55.917675 INFO [protocol] [202.97.251.225:47208 INC] SYNCHRONIZED OK
+2018-Feb-13 08:56:05.482837 INFO [protocol] [149.167.15.12:52818 INC] SYNCHRONIZED OK
+2018-Feb-13 08:56:11.283783 INFO [miner] Mining has started with 1 threads, good luck!
+2018-Feb-13 08:56:11.283801 INFO [miner] Miner thread was started [0]
+2018-Feb-13 09:00:59.729490 INFO [node_server] Stop signal sent
+2018-Feb-13 09:00:59.730518 INFO [node_server] Stopping NodeServer and it's11 connections...
+2018-Feb-13 09:00:59.732204 INFO [node_server] NodeServer loop stopped
+2018-Feb-13 09:00:59.732437 INFO [daemon] p2p net loop stopped
+2018-Feb-13 09:00:59.732623 INFO [daemon] Stopping core rpc server...
+2018-Feb-13 09:00:59.732890 INFO [daemon] Deinitializing core...
+2018-Feb-13 09:00:59.755243 INFO [miner] Miner thread stopped [0]
+2018-Feb-13 09:00:59.755731 INFO [miner] Mining has been stopped, 0 finished
+2018-Feb-13 09:00:59.756405 INFO [Blockchain] Saving blockchain...
+2018-Feb-13 09:00:59.757007 INFO [BlockCacheSerializer] - saving block index...
+2018-Feb-13 09:00:59.757470 INFO [BlockCacheSerializer] - saving transaction map...
+2018-Feb-13 09:00:59.758026 INFO [BlockCacheSerializer] - saving spent keys...
+2018-Feb-13 09:00:59.758104 INFO [BlockCacheSerializer] - saving outputs...
+2018-Feb-13 09:00:59.759648 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Feb-13 09:00:59.759737 INFO [BlockCacheSerializer] Serialization time: 2ms
+2018-Feb-13 09:00:59.760170 INFO [Blockchain] Saving blockchain indices...
+2018-Feb-13 09:00:59.760511 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2018-Feb-13 09:00:59.760595 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2018-Feb-13 09:00:59.761974 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2018-Feb-13 09:00:59.762677 INFO [daemon] Deinitializing p2p...
+2018-Feb-13 09:00:59.763789 INFO [miner] Mining has been stopped, 0 finished
+2018-Feb-13 09:00:59.768134 INFO [daemon] Node stopped.
+2018-Feb-13 09:01:30.184634 INFO [daemon] Vesta v1.1.1.1()
+2018-Feb-13 09:01:30.184846 INFO [daemon] Module folder: ./vestad
+2018-Feb-13 09:01:30.187511 INFO [daemon] Initializing p2p server...
+2018-Feb-13 09:01:30.187766 INFO [node_server] Binding on 0.0.0.0:17777
+2018-Feb-13 09:01:30.187928 INFO [node_server] Net service binded on 0.0.0.0:17777
+2018-Feb-13 09:01:30.187982 INFO [node_server] Attempting to add IGD port mapping.
+2018-Feb-13 09:01:34.192324 INFO [node_server] No IGD was found.
+2018-Feb-13 09:01:34.192548 INFO [daemon] P2p server initialized OK
+2018-Feb-13 09:01:34.192608 INFO [daemon] Initializing core...
+2018-Feb-13 09:01:34.193079 INFO [Blockchain] Loading blockchain...
+2018-Feb-13 09:01:34.193302 INFO [BlockCacheSerializer] - loading block index...
+2018-Feb-13 09:01:34.193823 INFO [BlockCacheSerializer] - loading transaction map...
+2018-Feb-13 09:01:34.194421 INFO [BlockCacheSerializer] - loading spent keys...
+2018-Feb-13 09:01:34.194483 INFO [BlockCacheSerializer] - loading outputs...
+2018-Feb-13 09:01:34.196456 INFO [BlockCacheSerializer] - loading multi-signature outputs...
+2018-Feb-13 09:01:34.196548 INFO [BlockCacheSerializer] Serialization time: 3ms
+2018-Feb-13 09:01:34.196600 INFO [Blockchain] Loading blockchain indices for BlockchainExplorer...
+2018-Feb-13 09:01:34.196692 INFO [BlockchainIndicesSerializer] - loading paymentID index...
+2018-Feb-13 09:01:34.196733 INFO [BlockchainIndicesSerializer] - loading timestamp index...
+2018-Feb-13 09:01:34.197357 INFO [BlockchainIndicesSerializer] - loading generated transactions index...
+2018-Feb-13 09:01:34.214736 INFO [Blockchain] Blockchain initialized. last block: 1560, d0.h0.m0.s45 time ago, current difficulty: 47641
+2018-Feb-13 09:01:34.214873 INFO [daemon] Core initialized OK
+2018-Feb-13 09:01:34.215027 INFO [daemon] Starting core rpc server on address 127.0.0.1:17778
+2018-Feb-13 09:01:34.215171 INFO [daemon] Core rpc server started ok
+2018-Feb-13 09:01:34.215264 INFO [daemon] Starting p2p net loop...
+2018-Feb-13 09:01:34.215304 INFO [node_server] Starting node_server
+2018-Feb-13 09:01:34.216377 INFO [protocol] [149.167.15.12:39517 INC] Sync data returned unknown top block: 1560 -> 1567 [7 blocks (0 days) behind] 
+2018-Feb-13 09:01:34.216377 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 09:01:34.217260 INFO [protocol] [202.97.251.225:41890 INC] Sync data returned unknown top block: 1560 -> 1567 [7 blocks (0 days) behind] 
+2018-Feb-13 09:01:34.217260 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 09:01:34.218063 INFO [protocol] [36.2.48.87:36241 INC] Sync data returned unknown top block: 1560 -> 1567 [7 blocks (0 days) behind] 
+2018-Feb-13 09:01:34.218063 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 09:01:34.218896 INFO [protocol] [37.187.95.180:24687 INC] Sync data returned unknown top block: 1560 -> 1568 [8 blocks (0 days) behind] 
+2018-Feb-13 09:01:34.218896 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 09:01:34.219687 INFO [protocol] [213.87.149.193:28624 INC] Sync data returned unknown top block: 1560 -> 1567 [7 blocks (0 days) behind] 
+2018-Feb-13 09:01:34.219687 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 09:01:34.220522 INFO [protocol] [94.25.160.54:17447 INC] Sync data returned unknown top block: 1560 -> 1567 [7 blocks (0 days) behind] 
+2018-Feb-13 09:01:34.220522 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 09:01:34.345382 INFO [protocol] [144.202.34.218:17777 OUT] Sync data returned unknown top block: 1560 -> 1568 [8 blocks (0 days) behind] 
+2018-Feb-13 09:01:34.345382 INFO [protocol] SYNCHRONIZATION started
+2018-Feb-13 09:01:34.345728 INFO [core] 
+2018-Feb-13 09:01:34.345728 INFO [core] **********************************************************************
+2018-Feb-13 09:01:34.345728 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Feb-13 09:01:34.345728 INFO [core] 
+2018-Feb-13 09:01:34.345728 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Feb-13 09:01:34.345728 INFO [core] 
+2018-Feb-13 09:01:34.345728 INFO [core] Use "help" command to see the list of available commands.
+2018-Feb-13 09:01:34.345728 INFO [core] 
+2018-Feb-13 09:01:34.345728 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Feb-13 09:01:34.345728 INFO [core] **********************************************************************
+2018-Feb-13 09:01:34.949176 INFO [protocol] [144.202.34.218:17777 OUT] SYNCHRONIZED OK
+2018-Feb-13 09:01:34.949288 INFO [protocol] 
+2018-Feb-13 09:01:34.949288 INFO [protocol] **********************************************************************
+2018-Feb-13 09:01:34.949288 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Feb-13 09:01:34.949288 INFO [protocol] 
+2018-Feb-13 09:01:34.949288 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Feb-13 09:01:34.949288 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Feb-13 09:01:34.949288 INFO [protocol] 
+2018-Feb-13 09:01:34.949288 INFO [protocol] Use "help" command to see the list of available commands.
+2018-Feb-13 09:01:34.949288 INFO [protocol] **********************************************************************
+2018-Feb-13 09:01:35.288441 INFO [protocol] [202.97.251.225:41890 INC] SYNCHRONIZED OK
+2018-Feb-13 09:01:35.498687 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 1568
+2018-Feb-13 09:01:35.498687 INFO [Blockchain] id:	<65b365da9dc670ef831643e17178de46cc128fb0870ceace4e39c8cf6d593703>
+2018-Feb-13 09:01:35.498687 INFO [Blockchain] PoW:	<1baf64c26d2791d1d4666f6bf6b387687b1183075cbaf9fadacf13bd993b0000>
+2018-Feb-13 09:01:35.498687 INFO [Blockchain] difficulty:	51356
+2018-Feb-13 09:01:35.499236 INFO [protocol] [37.187.95.180:24687 INC] SYNCHRONIZED OK
+2018-Feb-13 09:01:42.238401 INFO [Blockchain] ###### REORGANIZE on height: 1568 of 1568 with cum_difficulty 4224979
+2018-Feb-13 09:01:42.238401 INFO [Blockchain]  alternative blockchain size: 2 with cum_difficulty 4277005
+2018-Feb-13 09:01:42.360459 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 1568
+2018-Feb-13 09:01:42.360459 INFO [Blockchain] id:	<55ea45123a3bb7c75a7b16402db8be26b0d640381655d89ad33f48fd8fe04fde>
+2018-Feb-13 09:01:42.360459 INFO [Blockchain] PoW:	<d739f7ee6d3b867f2d3ef59ab3c5d3ce7c55e2cf52c1576576b68fc833420100>
+2018-Feb-13 09:01:42.360459 INFO [Blockchain] difficulty:	51356
+2018-Feb-13 09:01:42.360837 INFO [Blockchain] REORGANIZE SUCCESS! on height: 1568, new blockchain size: 1570
+2018-Feb-13 09:01:44.529666 INFO [protocol] [36.2.48.87:36241 INC] SYNCHRONIZED OK
+2018-Feb-13 09:01:44.639732 INFO [protocol] [213.87.149.193:28624 INC] SYNCHRONIZED OK
+2018-Feb-13 09:01:44.677952 INFO [protocol] [149.167.15.12:39517 INC] SYNCHRONIZED OK
+2018-Feb-13 09:01:44.715662 INFO [protocol] [94.25.160.54:17447 INC] SYNCHRONIZED OK
+2018-Feb-13 09:02:00.719137 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 1575
+2018-Feb-13 09:02:00.719137 INFO [Blockchain] id:	<b915d7ff81bf91465487098c9d688af3a42cc82bf2e1a90eb1f4721b65ef9ad2>
+2018-Feb-13 09:02:00.719137 INFO [Blockchain] PoW:	<d0f484949f2529b3dc34e1931e6054a8c42bc864ec4c3cb0eaba8a62bdfa0000>
+2018-Feb-13 09:02:00.719137 INFO [Blockchain] difficulty:	55682
+2018-Feb-13 09:02:02.592623 INFO [Blockchain] ###### REORGANIZE on height: 1575 of 1575 with cum_difficulty 4601976
+2018-Feb-13 09:02:02.592623 INFO [Blockchain]  alternative blockchain size: 2 with cum_difficulty 4658149
+2018-Feb-13 09:02:02.717814 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 1575
+2018-Feb-13 09:02:02.717814 INFO [Blockchain] id:	<1bfa638d91d7aeeeb2a6e95318a3ea13ed461fce9cda76af3b1f50062664af0c>
+2018-Feb-13 09:02:02.717814 INFO [Blockchain] PoW:	<523252abb3cc09eac22ecec8d99be1e0e25b4bca059b424f9fa92409acf80000>
+2018-Feb-13 09:02:02.717814 INFO [Blockchain] difficulty:	55682
+2018-Feb-13 09:02:02.718118 INFO [Blockchain] REORGANIZE SUCCESS! on height: 1575, new blockchain size: 1577
+2018-Feb-13 09:03:27.917970 WARNING [node_server] [213.87.149.193:28624 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 09:10:34.577388 INFO [protocol] [37.187.95.180:24687 INC] SYNCHRONIZED OK
+2018-Feb-13 09:21:12.567292 INFO [node_server] 
+2018-Feb-13 09:21:12.567292 INFO [node_server] Peerlist white:
+2018-Feb-13 09:21:12.567292 INFO [node_server] bca30c3fe00b0d92	144.202.34.218:17777 	last_seen: d0.h0.m0.s38
+384679dad5b057f4	91.214.117.22:17777 	last_seen: d0.h0.m0.s38
+66bd7dc796051f22	109.195.179.12:17777 	last_seen: d0.h0.m8.s38
+22daf992b52e422b	139.59.145.115:17777 	last_seen: d0.h0.m18.s56
+6b732bb98410d029	207.148.18.53:17777 	last_seen: d0.h0.m19.s36
+4f14c17f78edbd02	202.97.251.225:17777 	last_seen: d0.h0.m19.s38
+
+2018-Feb-13 09:21:12.567292 INFO [node_server] Peerlist gray:
+2018-Feb-13 09:21:12.567292 INFO [node_server] 9f3bf8d8ad5a605b	45.76.16.11:17777 	last_seen: d0.h0.m1.s14
+
+2018-Feb-13 09:26:00.245277 INFO [protocol] [202.97.251.225:41890 INC] SYNCHRONIZED OK
+2018-Feb-13 09:33:34.563847 INFO [protocol] [37.187.95.180:24687 INC] SYNCHRONIZED OK
+2018-Feb-13 09:43:34.241161 INFO [node_server] 
+2018-Feb-13 09:43:34.241161 INFO [node_server] Peerlist white:
+2018-Feb-13 09:43:34.241161 INFO [node_server] bca30c3fe00b0d92	144.202.34.218:17777 	last_seen: d0.h0.m1.s0
+384679dad5b057f4	91.214.117.22:17777 	last_seen: d0.h0.m8.s0
+66bd7dc796051f22	109.195.179.12:17777 	last_seen: d0.h0.m31.s0
+22daf992b52e422b	139.59.145.115:17777 	last_seen: d0.h0.m41.s18
+6b732bb98410d029	207.148.18.53:17777 	last_seen: d0.h0.m41.s58
+4f14c17f78edbd02	202.97.251.225:17777 	last_seen: d0.h0.m42.s0
+
+2018-Feb-13 09:43:34.241161 INFO [node_server] Peerlist gray:
+2018-Feb-13 09:43:34.241161 INFO [node_server] 9f3bf8d8ad5a605b	45.76.16.11:17777 	last_seen: d0.h0.m1.s29
+
+2018-Feb-13 09:44:49.350905 WARNING [node_server] [46.72.222.1:50257 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 10:07:19.271924 INFO [node_server] 
+2018-Feb-13 10:07:19.271924 INFO [node_server] Peerlist white:
+2018-Feb-13 10:07:19.271924 INFO [node_server] bca30c3fe00b0d92	144.202.34.218:17777 	last_seen: d0.h0.m0.s45
+cedaccd6f43c9325	165.227.141.210:17777 	last_seen: d0.h0.m19.s53
+384679dad5b057f4	91.214.117.22:17777 	last_seen: d0.h0.m31.s45
+66bd7dc796051f22	109.195.179.12:17777 	last_seen: d0.h0.m54.s45
+22daf992b52e422b	139.59.145.115:17777 	last_seen: d0.h1.m5.s3
+6b732bb98410d029	207.148.18.53:17777 	last_seen: d0.h1.m5.s43
+4f14c17f78edbd02	202.97.251.225:17777 	last_seen: d0.h1.m5.s45
+
+2018-Feb-13 10:07:19.271924 INFO [node_server] Peerlist gray:
+2018-Feb-13 10:07:19.271924 INFO [node_server] 9f3bf8d8ad5a605b	45.76.16.11:17777 	last_seen: d0.h0.m1.s20
+
+2018-Feb-13 10:41:24.613713 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 1927
+2018-Feb-13 10:41:24.613713 INFO [Blockchain] id:	<0c1cf7b192bbdbacdcf6f70098175744bb4286fd6d2e308ce1b3e7a88289a1fd>
+2018-Feb-13 10:41:24.613713 INFO [Blockchain] PoW:	<98fd462e5a7d848e1c89539cb9c78134e18eb447bf961e635a652132de160000>
+2018-Feb-13 10:41:24.613713 INFO [Blockchain] difficulty:	668330
+2018-Feb-13 11:06:41.234808 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2005
+2018-Feb-13 11:06:41.234808 INFO [Blockchain] id:	<174227f7e2b4c67a288cb292246c7267a2d96379d9c6bcc61235abeb1ddb3df2>
+2018-Feb-13 11:06:41.234808 INFO [Blockchain] PoW:	<b13df5c404130ce1855b734da47db176b490565d674d8883b3065751dd120000>
+2018-Feb-13 11:06:41.234808 INFO [Blockchain] difficulty:	846650
+2018-Feb-13 11:30:54.890240 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2077
+2018-Feb-13 11:30:54.890240 INFO [Blockchain] id:	<bf6ffa72e76077599b745a8265cc3f4af587bab8355d17cde6fd428505015395>
+2018-Feb-13 11:30:54.890240 INFO [Blockchain] PoW:	<bf5f28bbe4ace1906e9ff4df3e65346411815c3bd52dc4cf3a3db3e93a070000>
+2018-Feb-13 11:30:54.890240 INFO [Blockchain] difficulty:	1053132
+2018-Feb-13 11:32:03.998285 INFO [Blockchain] ###### REORGANIZE on height: 2077 of 2077 with cum_difficulty 242188660
+2018-Feb-13 11:32:03.998285 INFO [Blockchain]  alternative blockchain size: 2 with cum_difficulty 243246532
+2018-Feb-13 11:32:04.132916 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2077
+2018-Feb-13 11:32:04.132916 INFO [Blockchain] id:	<48b9a3e9c32da5a2344f7afe34f9fe5393c70df13bc61a1106267d5e8d00d9e0>
+2018-Feb-13 11:32:04.132916 INFO [Blockchain] PoW:	<a24d6acf02a4f726343751e478f4a08ab27d84c1fbbbd07c903b672d56000000>
+2018-Feb-13 11:32:04.132916 INFO [Blockchain] difficulty:	1053132
+2018-Feb-13 11:32:04.133473 INFO [Blockchain] REORGANIZE SUCCESS! on height: 2077, new blockchain size: 2079
+2018-Feb-13 11:48:18.410089 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2122
+2018-Feb-13 11:48:18.410089 INFO [Blockchain] id:	<0a77ba48e423d15d3bb63006d030e6ada1035690fce0221efa4db6d71a12fa5f>
+2018-Feb-13 11:48:18.410089 INFO [Blockchain] PoW:	<57cf4a0c723cda54bc1e848fa026c92a0ded41ba363a8d82b1a7446914050000>
+2018-Feb-13 11:48:18.410089 INFO [Blockchain] difficulty:	1197559
+2018-Feb-13 11:49:18.734922 WARNING [node_server] [88.99.82.232:17777 OUT] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 13:54:11.983723 INFO [protocol] [46.61.152.191:60100 INC] SYNCHRONIZED OK
+2018-Feb-13 13:55:49.194511 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2401
+2018-Feb-13 13:55:49.194511 INFO [Blockchain] id:	<a955e25d4c1e55ab5203013a024a6dab3995755d3ce08975494f5ee7d6fd2070>
+2018-Feb-13 13:55:49.194511 INFO [Blockchain] PoW:	<6be7727ba03274e48b4378338c14820d8664c02d42f8075e5981d62569000000>
+2018-Feb-13 13:55:49.194511 INFO [Blockchain] difficulty:	2035909
+2018-Feb-13 14:08:32.629489 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2425
+2018-Feb-13 14:08:32.629489 INFO [Blockchain] id:	<b6f3d4fb34af79cf6645c6e8c9047cee15f1ab0b3faced983ee0467e245ad0bc>
+2018-Feb-13 14:08:32.629489 INFO [Blockchain] PoW:	<2ddc94276f5665f6f77faa4232841c6f57f508135d4e539a71c0056e17040000>
+2018-Feb-13 14:08:32.629489 INFO [Blockchain] difficulty:	2117209
+2018-Feb-13 14:56:36.786993 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2532
+2018-Feb-13 14:56:36.786993 INFO [Blockchain] id:	<77023b1f2acf72df50b2f7955ca8ba6ccfdbd82991ff0f6cde27b3c6d9063f27>
+2018-Feb-13 14:56:36.786993 INFO [Blockchain] PoW:	<34cf955395a02c05d6f70058b7d9a4be0d7571886bf70e88780904aec9010000>
+2018-Feb-13 14:56:36.786993 INFO [Blockchain] difficulty:	2443270
+2018-Feb-13 14:56:50.140005 INFO [Blockchain] ###### REORGANIZE on height: 2532 of 2532 with cum_difficulty 1041307837
+2018-Feb-13 14:56:50.140005 INFO [Blockchain]  alternative blockchain size: 2 with cum_difficulty 1043757092
+2018-Feb-13 14:56:50.284222 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2532
+2018-Feb-13 14:56:50.284222 INFO [Blockchain] id:	<e10689bc839576f189f178b1aa9e85dae08c51b3fd750a7c55e757d7135b824f>
+2018-Feb-13 14:56:50.284222 INFO [Blockchain] PoW:	<0a85d07eab82654612fca53957f1093ba5b43d039cce08b29f7d499e81050000>
+2018-Feb-13 14:56:50.284222 INFO [Blockchain] difficulty:	2443270
+2018-Feb-13 14:56:50.284553 INFO [Blockchain] REORGANIZE SUCCESS! on height: 2532, new blockchain size: 2534
+2018-Feb-13 16:12:46.695450 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2673
+2018-Feb-13 16:12:46.695450 INFO [Blockchain] id:	<3e47f413534c01f216364fbfe0d94f9246531ea1faab34b2208efd9b8e3ebff5>
+2018-Feb-13 16:12:46.695450 INFO [Blockchain] PoW:	<033c6c095f7327f7440d1d3038f93617122b951e89233d626c69a2052d020000>
+2018-Feb-13 16:12:46.695450 INFO [Blockchain] difficulty:	2841541
+2018-Feb-13 16:20:41.489190 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2691
+2018-Feb-13 16:20:41.489190 INFO [Blockchain] id:	<b4b2a491ed0985ea80ea5dd71bfbedca3bf3863b95d0be020867ef4d76959ee4>
+2018-Feb-13 16:20:41.489190 INFO [Blockchain] PoW:	<d20ac6907ef66120bd027e0f75a94f20954899021dbc4623f1eaa52ebb050000>
+2018-Feb-13 16:20:41.489190 INFO [Blockchain] difficulty:	2910292
+2018-Feb-13 17:44:35.160221 INFO [protocol] [58.185.96.51:52940 INC] SYNCHRONIZED OK
+2018-Feb-13 18:21:56.495006 WARNING [node_server] [105.184.242.234:53764 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 18:44:16.664712 WARNING [node_server] [115.75.16.18:49854 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 19:30:04.135338 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2946
+2018-Feb-13 19:30:04.135338 INFO [Blockchain] id:	<964024742509cf07bfd8946bf8f1d0d0e2ab457e07f231889476e2fd8298cb89>
+2018-Feb-13 19:30:04.135338 INFO [Blockchain] PoW:	<fa2f5c8260557135baa56e23c88461ca359e17ed2d478da4fb985dbb6f000000>
+2018-Feb-13 19:30:04.135338 INFO [Blockchain] difficulty:	3622309
+2018-Feb-13 19:30:38.273389 INFO [Blockchain] ###### REORGANIZE on height: 2946 of 2946 with cum_difficulty 2309366710
+2018-Feb-13 19:30:38.273389 INFO [Blockchain]  alternative blockchain size: 2 with cum_difficulty 2312986441
+2018-Feb-13 19:30:38.420003 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 2946
+2018-Feb-13 19:30:38.420003 INFO [Blockchain] id:	<5ca019b938298b3d348beae1cbdabb8327b6109be822d43e2b639f86a3d8c7fd>
+2018-Feb-13 19:30:38.420003 INFO [Blockchain] PoW:	<b9ab71180f1cc1ce5782f26034525691e481137b9de4225451abcf1cde020000>
+2018-Feb-13 19:30:38.420003 INFO [Blockchain] difficulty:	3622309
+2018-Feb-13 19:30:38.420360 INFO [Blockchain] REORGANIZE SUCCESS! on height: 2946, new blockchain size: 2948
+2018-Feb-13 21:14:36.387864 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 3089
+2018-Feb-13 21:14:36.387864 INFO [Blockchain] id:	<aa290f84f5461fe9d7d5c6ff32a5a4a7acdffbcb567080af61aed21fc7f334b2>
+2018-Feb-13 21:14:36.387864 INFO [Blockchain] PoW:	<b9692fc7c4c1a2a04f1fe877e72d3478652d764032d8abe22f1f561d42040000>
+2018-Feb-13 21:14:36.387864 INFO [Blockchain] difficulty:	3834918
+2018-Feb-13 21:15:06.306899 INFO [Blockchain] ###### REORGANIZE on height: 3089 of 3089 with cum_difficulty 2838866959
+2018-Feb-13 21:15:06.306899 INFO [Blockchain]  alternative blockchain size: 2 with cum_difficulty 2842697963
+2018-Feb-13 21:15:06.462163 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 3089
+2018-Feb-13 21:15:06.462163 INFO [Blockchain] id:	<281758f6fda38b3b3c0110707890fae43123eb44190ebb84d714f06ccd0d4063>
+2018-Feb-13 21:15:06.462163 INFO [Blockchain] PoW:	<882d833d7d500a7fb5498bf4e4db69c5d4bb558f83ba73c00dc937e3bb030000>
+2018-Feb-13 21:15:06.462163 INFO [Blockchain] difficulty:	3834918
+2018-Feb-13 21:15:06.462994 INFO [Blockchain] REORGANIZE SUCCESS! on height: 3089, new blockchain size: 3091
+2018-Feb-13 22:16:34.830933 WARNING [node_server] [149.167.15.12:39517 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 22:21:47.662972 WARNING [node_server] [195.88.124.220:49381 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-13 23:26:10.446478 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 3270
+2018-Feb-13 23:26:10.446478 INFO [Blockchain] id:	<0a0b67d6e9644e8e55d47d4fd004aa2adb7188b2d288ac677aed0d26eeda0efa>
+2018-Feb-13 23:26:10.446478 INFO [Blockchain] PoW:	<68cb5e8141b56f43606b93e6d3bb586402ead295b79099fff8ee53b493020000>
+2018-Feb-13 23:26:10.446478 INFO [Blockchain] difficulty:	4375918
+2018-Feb-14 03:10:07.477245 WARNING [node_server] [195.88.124.220:57992 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-14 07:16:35.599051 WARNING [node_server] [82.243.254.112:17777 OUT] Exception in connectionHandler: TcpConnection::read
+2018-Feb-14 07:52:17.672190 INFO [protocol] [46.61.152.191:60100 INC] SYNCHRONIZED OK
+2018-Feb-14 07:59:52.718911 WARNING [node_server] [172.103.149.8:55777 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-14 10:23:49.182912 WARNING [node_server] [109.195.179.12:17777 OUT] Exception in connectionHandler: TcpConnection::read
+2018-Feb-14 11:06:02.895352 WARNING [node_server] [46.61.152.191:60100 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-14 11:40:35.202815 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-14 13:35:56.937279 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-14 13:41:48.430927 WARNING [node_server] [27.251.242.114:50924 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-14 14:58:49.055305 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 4276
+2018-Feb-14 14:58:49.055305 INFO [Blockchain] id:	<4c61ad30cc2cd3de1906a28e180991c7ccb36a668f0fc6eb9c0bde6d6fa655b8>
+2018-Feb-14 14:58:49.055305 INFO [Blockchain] PoW:	<ac22d2fcdd8846d981c5faac879b85f90fcefa36b5198f8c61f9e88cba000000>
+2018-Feb-14 14:58:49.055305 INFO [Blockchain] difficulty:	5295568
+2018-Feb-14 14:59:55.160930 INFO [Blockchain] ###### REORGANIZE on height: 4276 of 4276 with cum_difficulty 8592587823
+2018-Feb-14 14:59:55.160930 INFO [Blockchain]  alternative blockchain size: 2 with cum_difficulty 8597891756
+2018-Feb-14 14:59:55.332807 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 4276
+2018-Feb-14 14:59:55.332807 INFO [Blockchain] id:	<2187f4105352c3d4b846c84d1fabffca5031c7f10a77069055a94021391bb7b8>
+2018-Feb-14 14:59:55.332807 INFO [Blockchain] PoW:	<b3e68d01c899541a702e973318382cae26cdeea80c31d461542aab3ae9020000>
+2018-Feb-14 14:59:55.332807 INFO [Blockchain] difficulty:	5295568
+2018-Feb-14 14:59:55.333143 INFO [Blockchain] REORGANIZE SUCCESS! on height: 4276, new blockchain size: 4278
+2018-Feb-14 17:44:36.366997 WARNING [node_server] [172.103.149.8:60279 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-14 18:40:05.775544 WARNING [node_server] [45.116.229.50:51894 INC] error during write: TcpConnection::write, events & (EPOLLERR | EPOLLHUP) != 0
+2018-Feb-14 22:43:59.851597 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-15 01:18:35.594915 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-15 03:22:08.022088 WARNING [node_server] [45.116.229.50:54613 INC] write operation timed out, stopping connection
+2018-Feb-15 04:06:48.077127 WARNING [node_server] [45.116.229.50:55713 INC] write operation timed out, stopping connection
+2018-Feb-15 11:13:14.879136 WARNING [node_server] [120.51.157.115:12686 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-15 11:42:35.696783 INFO [protocol] [23.228.238.146:17788 OUT] SYNCHRONIZED OK
+2018-Feb-15 12:00:26.905104 WARNING [node_server] [27.251.242.114:56992 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-15 15:33:46.894960 WARNING [node_server] [45.116.229.50:49223 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-15 19:28:46.863128 WARNING [node_server] [45.116.229.50:51589 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-15 20:05:00.815007 WARNING [node_server] [45.77.172.44:34659 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-15 23:12:35.754365 WARNING [node_server] [24.86.182.121:48947 INC] error during write: TcpConnection::write, send failed, result=104, Connection reset by peer
+2018-Feb-16 00:01:09.072380 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-16 00:24:36.252073 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-16 05:01:20.014926 WARNING [node_server] [45.116.229.50:56155 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-16 06:03:43.246965 WARNING [node_server] [107.213.192.119:46903 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-16 10:17:25.535684 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 6620
+2018-Feb-16 10:17:25.535684 INFO [Blockchain] id:	<aaafdd63cd405b0062c42ebac42c533adf5210b200910d2b6e76500bf0f2aebd>
+2018-Feb-16 10:17:25.535684 INFO [Blockchain] PoW:	<08c7328f6b3c9c6454d69951f1cd2529d5eff820550684c96e36258d4d020000>
+2018-Feb-16 10:17:25.535684 INFO [Blockchain] difficulty:	4167545
+2018-Feb-16 13:01:32.814932 WARNING [node_server] [27.251.242.114:60619 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-16 14:18:13.819678 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-16 15:36:14.494976 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-16 18:22:36.579312 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-16 19:45:06.319067 WARNING [node_server] [45.116.229.50:51610 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-16 20:00:16.238937 INFO [protocol] [195.154.200.85:55505 INC] SYNCHRONIZED OK
+2018-Feb-16 22:30:47.822897 WARNING [node_server] [216.15.68.142:17777 OUT] Exception in connectionHandler: TcpConnection::read
+2018-Feb-16 23:24:59.733794 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 7555
+2018-Feb-16 23:24:59.733794 INFO [Blockchain] id:	<c74bc057abee34ab87ee7be11dda80ef9799fc1a5d744604f381506978ec9b33>
+2018-Feb-16 23:24:59.733794 INFO [Blockchain] PoW:	<dea3cd9a0be07e6a192bb36cc83f52268d8252708cea914afb7568b366010000>
+2018-Feb-16 23:24:59.733794 INFO [Blockchain] difficulty:	4449738
+2018-Feb-17 00:16:23.054938 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 7635
+2018-Feb-17 00:16:23.054938 INFO [Blockchain] id:	<45491fa3244ce3d42f9cec055d551ef15f4f824e3b9ae09dc9a238355ab1e5e3>
+2018-Feb-17 00:16:23.054938 INFO [Blockchain] PoW:	<91eb8b39629f272972c82389875f3c1bb61bef067d8fc372a5bf15277b010000>
+2018-Feb-17 00:16:23.054938 INFO [Blockchain] difficulty:	4471696
+2018-Feb-17 00:17:34.472860 INFO [Blockchain] ###### REORGANIZE on height: 7635 of 7635 with cum_difficulty 24561458997
+2018-Feb-17 00:17:34.472860 INFO [Blockchain]  alternative blockchain size: 2 with cum_difficulty 24565926374
+2018-Feb-17 00:17:34.694421 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 7635
+2018-Feb-17 00:17:34.694421 INFO [Blockchain] id:	<77543cbb3dc2f512397fdff8526aa422a3c1f1d3faa259b85fdda0be0d97e8dc>
+2018-Feb-17 00:17:34.694421 INFO [Blockchain] PoW:	<a1fe51c921b2169b5cacf694435d21254d0eea8f0b4beb683dd1294956030000>
+2018-Feb-17 00:17:34.694421 INFO [Blockchain] difficulty:	4471696
+2018-Feb-17 00:17:34.694732 INFO [Blockchain] REORGANIZE SUCCESS! on height: 7635, new blockchain size: 7637
+2018-Feb-17 00:21:51.472462 INFO [Blockchain] ----- BLOCK ADDED AS ALTERNATIVE ON HEIGHT 7642
+2018-Feb-17 00:21:51.472462 INFO [Blockchain] id:	<497b371d1783241d60e508b85496f829ef6bb6a8e76c304782004187296cce22>
+2018-Feb-17 00:21:51.472462 INFO [Blockchain] PoW:	<ec992aa651950a6efa9c2d234603dd7ac6d6288ccb9c76fad4b84c0480010000>
+2018-Feb-17 00:21:51.472462 INFO [Blockchain] difficulty:	4461678
+2018-Feb-17 01:07:15.854888 WARNING [node_server] [216.15.68.142:17777 OUT] Exception in connectionHandler: TcpConnection::read
+2018-Feb-17 01:59:44.405270 WARNING [node_server] [84.244.69.2:17104 INC] Exception in connectionHandler: TcpConnection::read
+2018-Feb-17 02:50:36.836236 INFO [protocol] [145.131.32.128:56339 INC] SYNCHRONIZED OK
